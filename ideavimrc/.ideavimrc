@@ -1,0 +1,12 @@
+set nu rnu
+set clipboard=unnamed
+set hlsearch
+set smartcase!
+set ignorecase
+set visualbell
+set noerrorbells
+set splitbelow
+set belloff=all
+nnoremap <C-e> 10<C-e>
+nnoremap <C-y> 10<C-y>
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
