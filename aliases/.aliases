@@ -13,3 +13,7 @@ alias cb="cargo build"
 alias lg="lazygit"
 alias j="just"
 alias idea="open -na 'IntelliJ IDEA Ultimate.app'"
+# rename window to the name of the current folder
+t() {
+  tmux rename-window "$(basename "$PWD")"
+}
